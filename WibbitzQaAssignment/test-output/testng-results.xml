@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48925" started-at="2020-12-29T20:17:38 IST" finished-at="2020-12-29T20:18:27 IST">
+    <groups>
+    </groups>
+    <test name="validateUserData" duration-ms="15205" started-at="2020-12-29T20:17:38 IST" finished-at="2020-12-29T20:17:53 IST">
+      <class name="WatchVideoTest.userErrorTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:WatchVideoTest.userErrorTest@5c6648b0]" name="init" is-config="true" duration-ms="10475" started-at="2020-12-29T20:17:38 IST" finished-at="2020-12-29T20:17:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="basePageLogin(java.lang.String, java.lang.String)[pri:0, instance:WatchVideoTest.userErrorTest@5c6648b0]" name="basePageLogin" duration-ms="4124" started-at="2020-12-29T20:17:48 IST" data-provider="getInvalidData" finished-at="2020-12-29T20:17:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[taimaabusaleh98@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[notMyRealPassowrd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WatchVideoTest.userErrorTest@5c6648b0]" name="tearDown" is-config="true" duration-ms="550" started-at="2020-12-29T20:17:53 IST" finished-at="2020-12-29T20:17:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WatchVideoTest.userErrorTest -->
+    </test> <!-- validateUserData -->
+    <test name="validateProcess" duration-ms="48925" started-at="2020-12-29T20:17:38 IST" finished-at="2020-12-29T20:18:27 IST">
+      <class name="WatchVideoTest.validateProcessTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:WatchVideoTest.validateProcessTest@30c15d8b]" name="init" is-config="true" duration-ms="11009" started-at="2020-12-29T20:17:38 IST" finished-at="2020-12-29T20:17:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:WatchVideoTest.validateProcessTest@30c15d8b]" name="basePageNavigation" duration-ms="2543" started-at="2020-12-29T20:17:49 IST" data-provider="getData" finished-at="2020-12-29T20:17:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[taimaabusaleh98@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Iphone1234!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="clickVideo()[pri:0, instance:WatchVideoTest.validateProcessTest@30c15d8b]" name="clickVideo" duration-ms="14053" started-at="2020-12-29T20:17:51 IST" finished-at="2020-12-29T20:18:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickVideo -->
+        <test-method status="PASS" signature="watchEditVideo()[pri:0, instance:WatchVideoTest.validateProcessTest@30c15d8b]" name="watchEditVideo" duration-ms="20574" started-at="2020-12-29T20:18:05 IST" finished-at="2020-12-29T20:18:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- watchEditVideo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WatchVideoTest.validateProcessTest@30c15d8b]" name="tearDown" is-config="true" duration-ms="728" started-at="2020-12-29T20:18:26 IST" finished-at="2020-12-29T20:18:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WatchVideoTest.validateProcessTest -->
+    </test> <!-- validateProcess -->
+  </suite> <!-- Suite -->
+</testng-results>
