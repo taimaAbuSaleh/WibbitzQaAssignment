@@ -12,8 +12,8 @@ import pageObjects.LoginPage;
 import resources.base;
 
 /**
- * 
- * @author Taima abu saleh
+ *   
+ * @author Taima Abu saleh
  * Class that represents the testCase1 in the scenario
  *
  */
